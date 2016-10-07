@@ -1,8 +1,7 @@
 /*background responsive image */
 body {
-    background-image: url("../img/tempbg.jpg");
-    height: 100%;
-    width: 100%;
+    background-image: url("../img/spirosview.jpg");
+
     background-repeat:no-repeat;
     background-position: center top;
     background-size:cover;
@@ -25,23 +24,29 @@ body {
 
 /*temporary to show where row exists*/
 .row {
-	background: #222;
-    opacity: .8;
-}
+    background: rgb(20, 20, 20); /* Fallback for older browsers without RGBA-support */
+    background: rgba(20, 20, 20, 0.9);}
 
-
-.wrapper {
-    position: fixed;
+/*container responsiveness */
+.container-fluid {
+    position: absolute;
     top: 10%;
     width: 100%;
     text-align: center;
     border: none;
-    bottom: 10%;
     z-index: 1000;
     font-family: 'Karla', sans-serif;
-    color: #989898;
+    color: #cecece;
 }
 
+@media (max-width: 480px) {
+.container-fluid{
+    top:3%;
+}
+
+}
+
+/* spiro's logo */
 .logoimg {
     padding-top: 4%;
     padding-bottom: 3%;
