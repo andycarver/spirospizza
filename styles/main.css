@@ -1,0 +1,28 @@
+
+/*Compatibility with IE 9-10 for svg*/
+.img-fluid {
+	width: 100% \9;
+	display: inherit;
+}
+
+/*Centers row on page*/
+.vcenter {
+	display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.row {
+	background: #222;
+}
+
+
+.wrapper {
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    border: none;
+    bottom: 10%;
+    z-index: 1000;
+}
