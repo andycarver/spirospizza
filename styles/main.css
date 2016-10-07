@@ -42,8 +42,18 @@ body {
 @media (max-width: 480px) {
 .container-fluid{
     top:3%;
+    height: 90%;
 }
+.info {
+    display: none;
+}
+.menubutton {
+    margin-bottom: 15%; 
 
+}
+.phonenumber{
+    margin-top: 15%;
+}
 }
 
 /* spiro's logo */
