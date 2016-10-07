@@ -1,3 +1,14 @@
+/*background responsive image */
+body {
+    background-image: url("../img/tempbg.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-size:cover;
+    background-attachment: fixed;
+    background-origin: padding-box;
+}
 
 /*Compatibility with IE 9-10 for svg*/
 .img-fluid {
@@ -12,8 +23,10 @@
     float: none;
 }
 
+/*temporary to show where row exists*/
 .row {
 	background: #222;
+    opacity: .8;
 }
 
 
@@ -25,4 +38,11 @@
     border: none;
     bottom: 10%;
     z-index: 1000;
+    font-family: 'Karla', sans-serif;
+    color: #989898;
+}
+
+.logoimg {
+    padding-top: 4%;
+    padding-bottom: 3%;
 }
